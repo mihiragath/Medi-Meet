@@ -1,5 +1,5 @@
 import Image from "next/image";
 
 export default function Home() {
-  return <div>Hello user</div>;
+  return <div className="py-22">Hello user</div>;
 }
