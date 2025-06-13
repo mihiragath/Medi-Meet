@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react";
 
-async function DoctorSpecialityPage({params}) {
-    const { specialty } = await params;
-  return (
-    <div>DoctorSpecialityPage: {specialty}</div>
-  )
+async function DoctorSpecialtyPage({ params }) {
+  const { specialty } = await params;
+  return <div>DoctorSpecialtyPage: {specialty}</div>;
 }
 
-export default DoctorSpecialityPage
+export default DoctorSpecialtyPage;
