@@ -40,13 +40,13 @@ export function AvailabilitySettings({ slots }) {
     const [hours, minutes] = timeStr.split(":").map(Number);
     const now = new Date();
     const date = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate(),
-      hours,
-      minutes
-    );
-    return date;
+        now.getFullYear(),
+        now.getMonth(),
+        now.getDate(),
+        hours,
+        minutes
+    ); 
+    return date;  
   }
 
   // Handle slot submission
