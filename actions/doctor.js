@@ -187,7 +187,7 @@ export async function cancelAppointment(formData) {
 
     const appointmentId = formData.get("appointmentId");
 
-    if (!appointmentId) {
+    if (!appointmentId) { 
       throw new Error("Appointment ID is required");
     }
 
