@@ -9,7 +9,7 @@ import { creditBenefits, features, testimonials } from "@/lib/data";
 
 export default function Home() {
   return (
-    <div className="bg-background">
+    <div className="bg-background gap-2">
       {/* Hero Section */}
       <section className="relative overflow-hidden py-32">
         <div className="container mx-auto px-4">
